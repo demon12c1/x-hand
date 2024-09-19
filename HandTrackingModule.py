@@ -68,7 +68,7 @@ class handDetector():
 
             # Example API call
         data = {
-            "machine_code": 'MC001',
+            "machine_code": 'MCL001_MC001',
             "operator_id": 12,
             "operator_name": 'Nguyen Van A',
             "working_time": time.time()

@@ -63,7 +63,7 @@ class handDetector():
             return
 
         data = {
-            "machine_code": 'MC001',
+            "machine_code": 'MCL001_MC001',
             "operator_id": 12,
             "operator_name": 'Nguyen Van A',
             "working_time": time.time()
@@ -81,7 +81,7 @@ def main():
     cTime = 0
 
     # Modify this to read from a video file instead of the camera
-    video_path = './GH010673.MP4'  # Change this to your MP4 file path
+    video_path = './demo.mp4'  # Change this to your MP4 file path
     cap = cv2.VideoCapture(video_path)
 
     detector = handDetector()
